@@ -1,0 +1,20 @@
+# SwiftPM build output and caches
+.build/
+.swiftpm/
+
+# App bundle and review artifacts from build.sh
+build/
+
+# Xcode (if the package is ever opened there)
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Exports and recordings that end up here by accident
+*.mp4
+*.mov
+*.m4a
